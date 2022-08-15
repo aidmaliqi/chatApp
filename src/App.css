@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+.material-symbols-outlined{
+  cursor: pointer;
+}
+
+.header{
+  display: grid;
+  background-color: #128c7e;
+  gap: 1rem;
+  color: aliceblue;
+}
+.header-firstSection{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 20px;
+}
+.header-secondSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  padding: 0px 20px 20px 20px;
+  justify-content: center;
+  gap: 1.3rem;
+  align-items: center;
+}
+.Profile-picture{
+width: 70px;
+height: 70px;
+background-color: gray;
+border-radius: 50%;
+}
+.messages-number{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  color: aliceblue;
+}
+.chatt-person{
+  display: grid;
+  grid-template-columns: auto 1fr auto ;
+  align-items: center;
+  gap: 2rem;
+  padding: 30px;
+}
+.chatt-person aside {
+  display: grid;
+  gap: 5px;
+  place-items: center;
+}
+.header2{
+  display: grid;
+  background-color: #128c7e;
+  grid-template-columns: auto auto 1fr auto auto auto;
+  padding: 20px;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-Picture2{
+  height: 65px;
+  width: 65px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.profile-Picture3{
+  height: 55px;
+  width: 55px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.triangle{ 
+  border-right: 30px solid red;
+  border-bottom: 40px solid white;
+  border-top: 0px solid violet;
+  border-left: 0px solid saddlebrown;
+  height: 0px;
+  width: 0px;
+}
+.message-text{
+  padding: 5px;
+background-color: aqua;
+word-break: break-all;
+min-width: 350px;
+max-width: 400px;
+
+}
+.message-text-container{
+  display: grid;
+  grid-template-columns: auto 1fr ;
+  gap: 1.3rem;
+  
+}
+.messages-ul{
+  padding: 30px 10px 20px 20px;
+  display: grid;
+  gap: 2rem;
+}
+.divs-container{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+}
+.message-text-container2{
+  display: grid;
+  grid-template-columns: 1fr auto ;
+  gap: 1.3rem;
+  justify-items: end;
+  
+}
+.triangle2{ 
+  border-right: 0px solid red;
+  border-bottom: 40px solid white;
+  border-top: 0px solid violet;
+  border-left: 30px solid saddlebrown;
+  height: 0px;
+  width: 0px;
+}
+.profile-image{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: inherit;
+  
+}
+.search-form{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.search-form, .seach-input{
+  animation: slide 1s 1;
+}
+.seach-input{
+  display: none;
+
+}

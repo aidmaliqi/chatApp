@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.header{
+    display: grid;
+    background-color: aquamarine;
+    gap: 1rem;
+}
+.header-firstSection{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+.header-secondSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    padding: 0px 20px 20px 20px;
+    justify-content: center;
+    gap: 1.3rem;
+    align-items: center;
+}
+.Profile-picture{
+ width: 70px;
+ height: 70px;
+ background-color: gray;
+ border-radius: 50%;
+}
+.messages-number{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+.chatt-person{
+    display: grid;
+    grid-template-columns: auto 1fr auto ;
+    align-items: center;
+    gap: 2rem;
+    padding: 30px;
+}
+.chatt-person aside {
+    display: grid;
+    gap: 5px;
+    place-items: center;
+}

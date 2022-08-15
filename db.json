@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Aid Maliqi",
+      "userProfilePicture": "https://images.pexels.com/photos/13146110/pexels-photo-13146110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+
+    {
+      "id": 2,
+      "userName": "SkenderBeu",
+      "userProfilePicture": "https://images.pexels.com/photos/13125805/pexels-photo-13125805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ],
+  "usersContacts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Jacob",
+      "profilePicture": "https://images.pexels.com/photos/12861655/pexels-photo-12861655.jpeg",
+      "userContactChat": [
+        {
+          "id": 1,
+          "name": "Aid Maliqi",
+          "message": "hello Jacob, how are you?"
+        },
+        {
+          "id": 2,
+          "name": "Jacob",
+          "message": "hello Aid, I am fine thanks. What about you?"
+        },
+        {
+          "id": 3,
+          "name": "Aid Maliqi",
+          "message": "I am good thanks?"
+        },
+        {
+          "id": 4,
+          "name": "Aid Maliqi",
+          "message": "how is your family?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hamza",
+      "userId": 2,
+      "profilePicture": "https://images.pexels.com/photos/13075368/pexels-photo-13075368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "userContactChat": [
+        {
+          "id": 5,
+
+          "name": "SkenderBeu",
+          "message": "Po si je mor Hamza?"
+        },
+        {
+          "id": 6,
+
+          "name": "Hamza",
+          "message": "Mire mo plak, po ti si je? "
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "Jacob",
+      "profilePicture": "https://images.pexels.com/photos/12861655/pexels-photo-12861655.jpeg",
+      "userContactChat": [
+        {
+          "id": 1,
+          "name": "Aid Maliqi",
+          "message": "hello Jacob, how are you?"
+        },
+        {
+          "id": 2,
+          "name": "Jacob",
+          "message": "hello Aid, I am fine thanks. What about you?"
+        },
+        {
+          "id": 3,
+          "name": "Aid Maliqi",
+          "message": "I am good thanks?"
+        },
+        {
+          "id": 4,
+          "name": "Aid Maliqi",
+          "message": "how is your family?"
+        }
+      ]
+    }
+  ]
+}

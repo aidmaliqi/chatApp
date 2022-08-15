@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header2{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: auto auto 1fr auto auto auto;
+    padding: 20px;
+    align-items: center;
+    gap: 1rem;
+}
+.profile-Picture2{
+    height: 65px;
+    width: 65px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.profile-Picture3{
+    height: 55px;
+    width: 55px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.triangle{ 
+    border-right: 30px solid red;
+    border-bottom: 40px solid white;
+    border-top: 0px solid violet;
+    border-left: 0px solid saddlebrown;
+    height: 0px;
+    width: 0px;
+}
+.message-text{
+ background-color: aqua;
+ word-break: break-all;
+ min-width: 350px;
+ max-width: 400px;
+ border-radius: 5px;
+}
+.message-text-container{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    gap: 1.3rem;
+    
+}
+.messages-ul{
+    padding: 30px 10px 20px 20px;
+    display: grid;
+    gap: 2rem;
+}
+.divs-container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+}
+.message-text-container2{
+    display: grid;
+    grid-template-columns: 1fr auto ;
+    gap: 1.3rem;
+    justify-items: end;
+    
+}
+.triangle2{ 
+    border-right: 0px solid red;
+    border-bottom: 40px solid white;
+    border-top: 0px solid violet;
+    border-left: 30px solid saddlebrown;
+    height: 0px;
+    width: 0px;
+}
